@@ -1,0 +1,50 @@
+
+header {
+    height: 100%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+
+
+body {
+    background-color: lightblue;
+  }
+
+  .grid-container{
+    width: 100%;
+    align-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    overflow-x: hidden;
+  }
+  
+
+.app-pokemonbox{
+    width: 100%;
+    margin: 10px;
+  }
+  
+/*   .app-pokemonbox :nth-child(5n){
+    margin-left: auto;
+  } */
+
+
+  ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;  
+    align-content: center; 
+}
+
+  li {
+    margin: 15px;
+
+    display: grid;
+    grid-template-columns: 180px auto;
+    grid-template-rows: 300px auto;
+} 

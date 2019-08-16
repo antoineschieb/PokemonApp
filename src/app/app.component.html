@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+
+<header>
+
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+</header>
+
+<ul class="grid-container">
+  <li *ngFor="let i of numbers; let index = index;">
+    <app-pokemonbox [id]=i+1></app-pokemonbox>
+  </li>
+</ul>
+
+
+<router-outlet></router-outlet>
